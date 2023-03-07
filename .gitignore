@@ -1,0 +1,9 @@
+BUILD
+?mbed
+compile_commands?json
+?clangd
+?cache
+mbed-os
+MAX77650
+MAX17055
+MAX32620FTHR
