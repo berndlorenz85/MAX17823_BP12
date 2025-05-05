@@ -2,7 +2,7 @@
 #define __Scheduler_H_
 
 //SCHEDULER
-#define LOOPTICKS_US              100
+#define LOOPTICKS_MS              100
 
 #define SCAN1                     0
 #define READBACK0_CELL_TICK1      SCAN1+1   //Start Analog Readback
