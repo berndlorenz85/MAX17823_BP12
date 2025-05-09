@@ -11,7 +11,7 @@ Serial pc(USBTX,USBRX,115200); // 3rd parameter is baud rate
 int main()
 {
     pc.printf("MBED VERSION %d.%d.%d\n\r", MBED_MAJOR_VERSION, MBED_MINOR_VERSION, MBED_PATCH_VERSION);
-    pc.printf("MAX17823 HVMUX Diag\n\r");
+    pc.printf("MAX17823 HVMUX Diag New\n\r");
     if(Scheduler_Init())
     {
         pc.printf("Initialization failed, Device restarts/n");
